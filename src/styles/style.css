@@ -1,0 +1,172 @@
+body, html {
+	height: 100%;
+}
+
+main {
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+}
+
+.rock_1 {
+  position: absolute;
+  left: 54%;
+  top: 81%;
+}
+
+.rock_2 {
+	position: absolute;
+	left: 7%;
+	top: 54vh;
+}
+
+.rock_3 {
+	position: absolute;
+	top: -77px;
+	left: 25%;
+}
+
+.diamond {
+	position: absolute;
+	left: 7%;
+	top: 116vh;
+}
+
+.circle__size_medium_1 {
+  position: absolute;
+  left: 2%;
+  top: 167vh;
+}
+.circle__size_medium_2 {
+  position: absolute;
+  left: 2%;
+  top: 184vh;
+}
+.circle__size_medium_3 {
+	position: absolute;
+	left: 2%;
+	top: 202vh;	
+}
+
+.circle__size_big_1 {
+	position: absolute;
+	left: 89%;
+	top: 17vh;
+}
+.circle__size_big_2 {
+	position: absolute;
+	left: 89%;
+	top: 41vh;
+}
+
+.wave__position_top_left {
+	position: absolute;
+	left: 2%;
+	top: 11vh;
+}
+
+.rainbow__position_bottom_right {
+	position: absolute;
+	left: 23%;
+	top: 144vh;
+}
+
+.radial__position_top_right {
+	position: absolute;
+	left: 43%;
+	top: 8vh;
+}
+
+.radial__position_middle_left {
+	position: absolute;
+	left: 4%;
+	top: 99vh;
+}
+
+.gradient__position_top_middle {
+	position: absolute;
+	left: 31%;
+	top: 17vh;
+}
+
+.corals__position_top_left {
+	position: absolute;
+	left: 1%;
+	top: 11vh;
+}
+
+.radial__position_bottom_left {
+	position: absolute;
+	left: 6%;
+	top: 120vh;
+}
+
+.rainbow__position_middle_middle {
+	position: absolute;
+	left: 16%;
+	top: 68vh;
+}
+
+.rainbow__position_bottom_middle {
+	position: absolute;
+	left: 16%;
+	top: 135vh;
+}
+
+.circle__size_small_1 {
+	position: absolute;
+	left: -4%;
+	top: 86vh;
+}
+.circle__size_small_2 {
+	position: absolute;
+	left: 8%;
+	top: 86vh;
+}
+.circle__size_small_3 {
+	position: absolute;
+	left: 20%;
+	top: 86vh;
+}
+
+.gradient__position_bottom_right {
+	position: absolute;
+	left: 30%;
+	top: 132vh;
+}
+
+.corals__position_middle_right {
+	position: absolute;
+	left: 51%;
+	top: 39vh;
+}
+
+.moon {
+	position: absolute;
+	left: 44%;
+	top: 7vh;
+}
+
+.white_lines_top {
+	position: absolute;
+	left: 31%;
+	top: 17vh;
+}
+
+.white_lines_bottom {
+	position: absolute;
+	left: 30%;
+	top: 132vh;
+}
+
+.corals__position_bottom_right {
+	position: absolute;
+	left: 34%;
+	top: 153vh;
+}
