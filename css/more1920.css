@@ -1,0 +1,76 @@
+@media screen and (min-width: 1920px) {
+  .rock_1 {
+    position: absolute;
+    left: 54%;
+    top: 1146px;
+    background-image: url(../img/layer_1/rock_1.svg);
+    max-width: 775px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 814px;
+    width: 41vw;
+    height: 56vh;
+  }
+
+  .rock_2 {
+    position: absolute;
+    left: 7%;
+    top: 772px;
+    background-image: url(../img/layer_1/rock_2.svg);
+    max-width: 616px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 814px;
+    width: 32vw;
+    height: 52vh;
+  }
+  .rock_3 {
+    position: absolute;
+    top: -64px;
+    left: 25%;
+    background-image: url(../img/layer_1/rock_3.svg);
+    max-width: 547px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 797px;
+    width: 29vw;
+    height: 52vh;
+  }
+
+  .diamond {
+    position: absolute;
+    left: 7%;
+    top: 1649px;
+    background-image: url(../img/layer_1/diamond.svg);
+    max-width: 1536px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 1444px;
+    width: 75vw;
+    height: 94vh;
+  }
+  .circle__size_medium_1 {
+    position: absolute;
+    left: 2%;
+    top: 2375px;
+    background-image: url(../img/layer_1/circle__size_medium.svg);
+    max-width: 229px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 795px;
+    width: 12vw;
+    height: 15vh;
+  }
+  .circle__size_medium_2 {
+    position: absolute;
+    left: 2%;
+    top: 2623px;
+    background-image: url(../img/layer_1/circle__size_medium.svg);
+    max-width: 229px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 795px;
+    width: 12vw;
+    height: 15vh;
+  }
+}
