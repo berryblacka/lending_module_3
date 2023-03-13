@@ -98,7 +98,14 @@ main {
   .circle__size_medium_3 {
     position: absolute;
     left: 2%;
-    top: 202vh;
+    top: 150vw;
+    background-image: url(../img/layer_1/circle__size_medium.svg);
+    max-width: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 769px;
+    width: 16vw;
+    height: 12vw;
   }
   
   .circle__size_big_1 {
@@ -115,43 +122,90 @@ main {
   .wave__position_top_left {
     position: absolute;
     left: 2%;
-    top: 11vh;
+    top: 8vw;
+    background-image: url(../img/layer_2/wave__position_top_left.svg);
+    max-width: 932px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 1576px;
+    width: 49vw;
+    height: 81vw;
   }
   
   .rainbow__position_bottom_right {
     position: absolute;
-    left: 23%;
-    top: 144vh;
+    left: 23.4%;
+    top: 106.5vw;
+    background-image: url(../img/layer_2/rainbow__position_bottom_right.svg);
+    max-width: 1505px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 1094px;
+    width: 73vw;
+    height: 61vw;
   }
   
   .radial__position_top_right {
     position: absolute;
     left: 43%;
-    top: 8vh;
+    top: 6vw;
+    background-image: url(../img/layer_2/radial__position_top_right.svg);
+    max-width: 1890px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 1773px;
+    width: 55vw;
+    height: 92vw;
   }
   
   .radial__position_middle_left {
     position: absolute;
     left: 4%;
-    top: 99vh;
+    top: 73vw;
+    background-image: url(../img/layer_2/radial__position_middle_left.svg);
+    max-width: 1097px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 362px;
+    width: 57vw;
+    height: 19vw;
   }
   
   .gradient__position_top_middle {
     position: absolute;
     left: 31%;
-    top: 17vh;
+    top: 12vw;
+    background-image: url(../img/layer_2/gradient__position_top_middle.svg);
+    max-width: 456px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 887px;
+    width: 24vw;
+    height: 46vw;
   }
   
   .corals__position_top_left {
     position: absolute;
     left: 1%;
-    top: 11vh;
+    top: 8vw;
+    background-image: url(../img/layer_2/corals__position_top_left.svg);
+    /* max-width: 456px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* max-height: 887px; */
+    width: 24vw;
+    height: 46vw;
   }
   
   .radial__position_bottom_left {
     position: absolute;
-    left: 6%;
-    top: 120vh;
+    left: 6.5%;
+    top: 89vw;
+    background-image: url(../img/layer_2/radial__position_bottom_left.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 61vw;
+    height: 67vw;
   }
   
   .rainbow__position_middle_middle {
@@ -186,6 +240,7 @@ main {
     position: absolute;
     left: 30%;
     top: 132vh;
+    
   }
   
   .corals__position_middle_right {
