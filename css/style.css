@@ -47,7 +47,7 @@ main {
   
   .rock_3 {
     position: absolute;
-    top: -64px;
+    top: -4vw;
     left: 25%;
     background-image: url(../img/layer_1/rock_3.svg);
     max-width: 547px;
@@ -110,13 +110,23 @@ main {
   
   .circle__size_big_1 {
     position: absolute;
-    left: 89%;
-    top: 17vh;
+    right: -5%;
+    top: 12vw;
+    background-image: url(../img/layer_2/circle__size_big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16vw;
+    height: 21vw;
   }
   .circle__size_big_2 {
     position: absolute;
-    left: 89%;
-    top: 41vh;
+    right: -5%;
+    top: 30vw;
+    background-image: url(../img/layer_2/circle__size_big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16vw;
+    height: 21vw;
   }
   
   .wave__position_top_left {
@@ -204,73 +214,128 @@ main {
     background-image: url(../img/layer_2/radial__position_bottom_left.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 61vw;
+    width: 26vw;
     height: 67vw;
   }
   
   .rainbow__position_middle_middle {
     position: absolute;
     left: 16%;
-    top: 68vh;
+    top: 50vw;
+    background-image: url(../img/layer_2/rainbow__position_middle_middle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 33vw;
+    height: 53vw;
   }
   
   .rainbow__position_bottom_middle {
     position: absolute;
     left: 16%;
-    top: 135vh;
+    top: 99vw;
+    background-image: url(../img/layer_2/rainbow__position_bottom_middle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 33vw;
+    height: 23vw;
   }
   
   .circle__size_small_1 {
     position: absolute;
     left: -4%;
-    top: 86vh;
+    top: 63.5vw;
+    background-image: url(../img/layer_2/circle__size_small.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 11vw;
+    height: 11vw;
   }
   .circle__size_small_2 {
     position: absolute;
     left: 8%;
-    top: 86vh;
+    top: 63.5vw;
+    background-image: url(../img/layer_2/circle__size_small.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 11vw;
+    height: 11vw;
   }
   .circle__size_small_3 {
     position: absolute;
     left: 20%;
-    top: 86vh;
+    top: 63.5vw;
+    background-image: url(../img/layer_2/circle__size_small.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 11vw;
+    height: 11vw;
   }
   
   .gradient__position_bottom_right {
     position: absolute;
-    left: 30%;
-    top: 132vh;
+    left: 32.1%;
+    top: 97vw;
+    background-image: url(../img/layer_2/gradient__position_bottom_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 66vw;
+    height: 34vw;
     
   }
   
   .corals__position_middle_right {
     position: absolute;
     left: 51%;
-    top: 39vh;
+    top: 30vw;
+    background-image: url(../img/layer_2/corals__position_middle_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 47vw;
+    height: 68vw;
   }
   
   .moon {
     position: absolute;
     left: 44%;
-    top: 7vh;
+    top: 7.2vw;
+    background-image: url(../img/layer_3/moon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 54vw;
+    height: 91vw;
   }
   
   .white_lines_top {
     position: absolute;
     left: 31%;
-    top: 17vh;
+    top: 11.3vw;
+    background-image: url(../img/layer_3/white_lines_top.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24vw;
+    height: 47vw;
   }
   
   .white_lines_bottom {
     position: absolute;
     left: 30%;
-    top: 132vh;
+    top: 95.9vw;
+    background-image: url(../img/layer_3/white_lines_bottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 68vw;
+    height: 35vw;
   }
   
   .corals__position_bottom_right {
     position: absolute;
     left: 34%;
-    top: 153vh;
+    top: 113vw;
+    background-image: url(../img/layer_3/corals__position_bottom_right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 43vw;
   }
   
 }
