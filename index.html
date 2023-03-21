@@ -7,141 +7,47 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
-    <script src="./scripts/libs/gsap-public/ScrollSmoother.min.js"></script>
   </head>
   <body>
     <main>
-      <div class="smooth-wrapper">
-        <!-- <img class="rock_1" src="./img/layer_1/rock_1.svg" alt="" /> -->
-        <!-- <img class="rock_2" src="./img/layer_1/rock_2.svg" alt="" /> -->
-        <!-- <img class="rock_3" src="./img/layer_1/rock_3.svg" alt="" /> -->
-        <!-- <img class="diamond" src="./img/layer_1/diamond.svg" alt="" /> -->
-        <!-- <img
-          class="circle__size_medium_1"
-          src="./img/layer_1/circle__size_medium.svg"
-          alt=""
-        />
-        <img
-          class="circle__size_medium_2"
-          src="./img/layer_1/circle__size_medium.svg"
-          alt=""
-        />
-        <img
-          class="circle__size_medium_3"
-          src="./img/layer_1/circle__size_medium.svg"
-          alt=""
-        />
-
-
-
-
-
-
-        <img
-          class="wave__position_top_left"
-          src="./img/layer_2/wave__position_top_left.svg"
-          alt=""
-        />
-        <img
-          class="rainbow__position_bottom_right"
-          src="./img/layer_2/rainbow__position_bottom_right.svg"
-          alt=""
-        />
-        <img
-          class="gradient__position_bottom_right"
-          src="./img/layer_2/gradient__position_bottom_right.svg"
-          alt=""
-        />
-        <img
-          class="radial__position_top_right"
-          src="./img/layer_2/radial__position_top_right.svg"
-          alt=""
-        />
-        <img
-          class="radial__position_middle_left"
-          src="./img/layer_2/radial__position_middle_left.svg"
-          alt=""
-        />
-        <img
-          class="gradient__position_top_middle"
-          src="./img/layer_2/gradient__position_top_middle.svg"
-          alt=""
-        />
-        <img
-          class="corals__position_top_left"
-          src="./img/layer_2/corals__position_top_left.svg"
-          alt=""
-        />
-        <img
-          class="radial__position_bottom_left"
-          src="./img/layer_2/radial__position_bottom_left.svg"
-          alt=""
-        />
-        <img class="moon" src="../img/layer_3/moon.svg" alt="">
-
-        <img
-          class="rainbow__position_middle_middle"
-          src="./img/layer_2/rainbow__position_middle_middle.svg"
-          alt=""
-        />
-        <img
-          class="rainbow__position_bottom_middle"
-          src="./img/layer_2/rainbow__position_bottom_middle.svg"
-          alt=""
-        />
-        <img
-          class="circle__size_big_1"
-          src="./img/layer_2/circle__size_big.svg"
-          alt=""
-        />
-        <img
-          class="circle__size_big_2"
-          src="./img/layer_2/circle__size_big.svg"
-          alt=""
-        />
-        <img class="circle__size_small_1" src="./img/layer_2/circle__size_small.svg" alt="" />
-        <img class="circle__size_small_2" src="./img/layer_2/circle__size_small.svg" alt="" />
-        <img class="circle__size_small_3" src="./img/layer_2/circle__size_small.svg" alt="" />
-        <img class="corals__position_middle_right" src="./img/layer_2/corals__position_middle_right.svg" alt="">
-        <img class="white_lines_top" src="./img/layer_3/white_lines_top.svg" alt="">
-        <img class="white_lines_bottom" src="./img/layer_3/white_lines_bottom.svg" alt="">
-        <img class="corals__position_bottom_right" src="./img/layer_3/corals__position_bottom_right.svg" alt=""> -->
-        <div class="smooth-content">
-          <div class="container">
-            <div class="rock_1"></div>
-            <div class="rock_2"></div>
-            <div class="rock_3"></div>
-            <div class="diamond"></div>
-            <div class="circle__size_medium_1"></div>
-            <div class="circle__size_medium_2"></div>
-            <div class="circle__size_medium_3"></div>
-            <div class="wave__position_top_left"></div>
-            <div class="rainbow__position_bottom_right"></div>
-            <div class="radial__position_top_right"></div>
-            <div class="radial__position_middle_left"></div>
-            <div class="gradient__position_top_middle"></div>
-            <div class="corals__position_top_left"></div>
-            <div class="radial__position_bottom_left"></div>
-            <div class="moon"></div>
-            <div class="rainbow__position_middle_middle" data-lag="0.5"></div>
-            <div class="circle__size_small_1"></div>
-            <div class="circle__size_small_2"></div>
-            <div class="circle__size_small_3"></div>
-            <div class="gradient__position_bottom_right"></div>
-            <div class="rainbow__position_bottom_middle"></div>
-            <div class="corals__position_middle_right"></div>
-            <div class="white_lines_top"></div>
-            <div class="white_lines_bottom"></div>
-            <div class="corals__position_bottom_right"></div>
-            <div class="circle__size_big_1"></div>
-            <div class="circle__size_big_2"></div>
-          </div>
+      <div class="wrapper">
+        <div class="content">
+          <div class="rock_1"></div>
+          <div class="rock_2"></div>
+          <div class="rock_3"></div>
+          <div class="diamond"></div>
+          <div class="circle__size_medium_1"></div>
+          <div class="circle__size_medium_2"></div>
+          <div class="circle__size_medium_3"></div>
+          <div id="elem1" class="wave__position_top_left"></div>
+          <div id="elem2" class="rainbow__position_bottom_right"></div>
+          <div id="elem3" class="radial__position_top_right"></div>
+          <div id="elem4" class="radial__position_middle_left"></div>
+          <div class="gradient__position_top_middle"></div>
+          <div id="elem1" class="corals__position_top_left elem1"></div>
+          <div class="radial__position_bottom_left elem1"></div>
+          <div class="moon"></div>
+          <div class="rainbow__position_middle_middle" data-lag="0.5"></div>
+          <div class="circle__size_small_1"></div>
+          <div class="circle__size_small_2"></div>
+          <div class="circle__size_small_3"></div>
+          <div class="gradient__position_bottom_right"></div>
+          <div class="rainbow__position_bottom_middle"></div>
+          <div class="corals__position_middle_right"></div>
+          <div class="white_lines_top"></div>
+          <div class="white_lines_bottom"></div>
+          <div class="corals__position_bottom_right"></div>
+          <div class="circle__size_big_1"></div>
+          <div class="circle__size_big_2"></div>
         </div>
       </div>
     </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
