@@ -50,7 +50,7 @@ $(document).ready(() => {
   OpacityChanger($("#corals__position_top_left"));
   SizeSmaller($("#radial__position_bottom_left"));
   SizeSmaller($("#gradient__position_bottom_right"));
-  OpacityChanger($("corals__position_bottom_right"));
+  OpacityChanger($("#corals__position_bottom_right"));
   OpacityChanger($("#moon"));
   OpacityChanger($("#corals__position_middle_right"));
   OpacityChanger($("#white_lines_top"));
@@ -62,7 +62,6 @@ $(document).ready(() => {
   Disappear($("#text__middle_left"));
   Disappear($("#text__middle_right"));
   Disappear($("#text__bottom_middle"));
-  Disappear($("#corals__position_bottom_right"));
 
 
 });
