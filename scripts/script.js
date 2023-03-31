@@ -40,8 +40,8 @@ $(document).ready(() => {
   };
 
 
-  $("#gradient__position_top_middle, #rainbow__position_bottom_middle, #circle__size_small_1, #circle__size_small_2, #circle__size_small_3, #circle__size_big_1, #circle__size_big_2, #circle__size_medium_1, #circle__size_medium_2, #circle__size_medium_3").draggable();
-  $("#gradient__position_top_middle, #rainbow__position_bottom_middle, #circle__size_small_1, #circle__size_small_2, #circle__size_small_3, #circle__size_big_1, #circle__size_big_2, #circle__size_medium_1, #circle__size_medium_2, #circle__size_medium_3").css('cursor', 'pointer');
+  $("#gradient__position_top_middle, #rainbow__position_bottom_middle, #circle__size_small_1, #circle__size_small_2, #circle__size_small_3, #circle__size_big_1, #circle__size_big_2, #circle__size_medium_1, #circle__size_medium_2, #circle__size_medium_3, #rock_1, #rock_2, #rock_3, #rock_4" ).draggable();
+  $("#gradient__position_top_middle, #rainbow__position_bottom_middle, #circle__size_small_1, #circle__size_small_2, #circle__size_small_3, #circle__size_big_1, #circle__size_big_2, #circle__size_medium_1, #circle__size_medium_2, #circle__size_medium_3, #rock_1, #rock_2, #rock_3, #rock_4").css('cursor', 'pointer');
 
   SizeSmaller($("#wave__position_top_left"));
   OpacityChanger($("#rainbow__position_bottom_right"));
@@ -67,5 +67,5 @@ $(document).ready(() => {
   Disappear($("#corals__position_bottom_right"));
 
 
-})
+});
 
