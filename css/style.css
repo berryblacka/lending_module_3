@@ -29,7 +29,7 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     width: 41vw;
-    height: 56vw;
+    height: 43vw;
   }
 
   #rock_2 {
@@ -54,15 +54,15 @@ main {
     height: 43vw;
   }
 
-  #diamond {
+  #rock_4 {
     position: absolute;
-    left: 7%;
-    top: 86vw;
-    background-image: url(../img/layer_1/diamond.svg);
+    left: 2%;
+    top: 74vw;
+    background-image: url(../img/layer_1/rock_4.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 72vw;
-    height: 76vw;
+    width: 83vw;
+    height: 86vw;
   }
 
   #circle__size_medium_1 {
@@ -167,7 +167,6 @@ main {
     /* max-height: 362px; */
     width: 57vw;
     height: 19vw;
-    transition: transform 1s;
   }
 
   #gradient__position_top_middle {
