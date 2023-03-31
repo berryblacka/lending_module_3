@@ -1,4 +1,4 @@
-$document.ready(() => {
+$(document).ready(() => {
   // ..........функция для уменьшения прозрачности...............
 
   function OpacityChanger(svgElement) {
