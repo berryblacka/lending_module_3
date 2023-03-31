@@ -62,8 +62,6 @@ $(document).ready(() => {
   Disappear($("#text__middle_left"));
   Disappear($("#text__middle_right"));
   Disappear($("#text__bottom_middle"));
-  Disappear($("#text__footer_left"));
-  Disappear($("#text__footer_right"));
   Disappear($("#corals__position_bottom_right"));
 
 

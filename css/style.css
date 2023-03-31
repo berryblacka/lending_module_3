@@ -405,4 +405,24 @@ main {
     width: 17vw;
     height: 7vw;
   }
+
+  .text {
+    animation-name: swing;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom center;
+  }
+
+  @keyframes swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 }
