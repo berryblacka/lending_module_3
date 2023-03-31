@@ -1,6 +1,3 @@
-/* eslint-disable camelcase */
-/* eslint-disable no-param-reassign */
-/* eslint-disable no-undef */
 const wave__position_top_left = document.getElementById('wave__position_top_left');
 const rainbow__position_bottom_right = document.getElementById('rainbow__position_bottom_right');
 const radial__position_top_right = document.getElementById('radial__position_top_right');
@@ -42,13 +39,11 @@ const Dragger = (elem) => {
     elem.style.position = 'absolute';
     elem.style.zIndex = 1000;
     document.body.append(elem);
-    // eslint-disable-next-line no-use-before-define
     moveAt(event.pageX, event.pageY);
     function moveAt(pageX, pageY) {
       elem.style.left = `${pageX - shiftX}px`;
       elem.style.top = `${pageY - shiftY}px`;
     }
-    // eslint-disable-next-line no-shadow
     function onMouseMove(event) {
       moveAt(event.pageX, event.pageY);
     }
@@ -70,10 +65,8 @@ function OpacityChanger(svgElement) {
   svgElement.style.cursor = 'pointer';
   svgElement.addEventListener('click', () => {
     opacity *= 0.6;
-    // eslint-disable-next-line no-param-reassign
     svgElement.style.opacity = `${opacity}`;
     if (opacity < 0.1) {
-      // eslint-disable-next-line no-param-reassign
       svgElement.style.display = 'none';
     }
   });
@@ -87,14 +80,14 @@ function SizeSmaller(svgElement) {
   svgElement.style.transition = 'transform 1s';
   svgElement.addEventListener('click', () => {
     scale *= 0.6;
-    // eslint-disable-next-line no-param-reassign
     svgElement.style.transform = `scale(${scale})`;
     if (scale < 0.1) {
-      // eslint-disable-next-line no-param-reassign
       svgElement.style.display = 'none';
     }
   });
 }
+
+// ..........функция для исчезания...............
 
 const Disappear = (elem) => {
   elem.style.cursor = 'pointer';
